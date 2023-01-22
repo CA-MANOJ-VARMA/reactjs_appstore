@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.css-tab-button-itself {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.css-tab-button-itself:hover {
+  cursor: pointer;
+}
+
+.css-tablist-container {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.css-blur-tab {
+  opacity: 0.5;
+}
+.css-active-tab {
+  border-bottom-color: blue;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
